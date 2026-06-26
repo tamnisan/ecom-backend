@@ -1,6 +1,4 @@
 
-from turtle import update
-
 from fastapi import HTTPException,status,Depends
 from app import schemas,database,models
 from idna import encode
