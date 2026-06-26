@@ -1,7 +1,6 @@
 
 
-from ast import mod
-from tkinter import S
+
 
 from fastapi import APIRouter,Depends,HTTPException,status
 from sqlalchemy.orm import Session
