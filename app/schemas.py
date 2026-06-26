@@ -10,6 +10,7 @@ class Product(BaseModel):
     warehouse_pincode:int
     discount_status: Optional[bool] = False
     discount_percent:Optional[int]=0
+    price:Optional[int]=100
 
 
 
