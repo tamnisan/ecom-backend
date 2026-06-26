@@ -2,6 +2,9 @@
 
 A full-featured **RESTful e-commerce backend** built with **FastAPI** and **PostgreSQL**. This API provides complete backend functionality for an e-commerce platform including user management, product catalog, order processing, wallet system, role-based access control, and JWT authentication.
 
+> ### 🌐 Live API: [https://ecom-backend-6vgy.onrender.com](https://ecom-backend-6vgy.onrender.com)
+> ### 📖 Swagger Docs: [https://ecom-backend-6vgy.onrender.com/docs](https://ecom-backend-6vgy.onrender.com/docs)
+
 ---
 
 ## 📑 Table of Contents
