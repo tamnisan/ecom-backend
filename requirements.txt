@@ -3,11 +3,11 @@ uvicorn
 sqlalchemy
 alembic
 psycopg2-binary
-passlib[argon2]
+passlib[bcrypt]
 python-jose[cryptography]
 python-multipart
 python-dotenv
-pydantic
+pydantic[email]
 pydantic-settings
 requests
 sentry-sdk
