@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+psycopg2-binary
+passlib[argon2]
+python-jose[cryptography]
+python-multipart
+python-dotenv
+pydantic
+pydantic-settings
+requests
+sentry-sdk
