@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app import models
+
 from app.database import engine
 from app.routers import product,user,auth,order
 

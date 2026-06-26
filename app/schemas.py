@@ -1,4 +1,4 @@
-from itertools import product
+
 from typing import Optional
 
 from pydantic import BaseModel, EmailStr,ConfigDict

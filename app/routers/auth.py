@@ -3,7 +3,7 @@ from fastapi import HTTPException,Depends,APIRouter,status
 from   sqlalchemy.orm import Session
 from app import schemas,models,OAuth2
 from app.database import get_db
-from app.utils import hash,verify
+from app.utils import verify
 from fastapi.security.oauth2 import OAuth2PasswordRequestForm
 
 

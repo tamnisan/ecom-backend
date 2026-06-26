@@ -1,10 +1,10 @@
 
 from fastapi import HTTPException,status,Depends
 from app import schemas,database,models
-from idna import encode
+
 from jose import JWTError,jwt
 from datetime import datetime,timedelta
-from fastapi.security import OAuth2, OAuth2PasswordBearer
+from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 from app.config import settings
 
