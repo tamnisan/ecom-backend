@@ -73,6 +73,7 @@ def delete_product(id:int,db:Session=Depends(get_db),current_user:int=Depends(OA
             raise  HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail="product with id:{id} not found")
         base_query.delete(synchronize_session=False)
         db.commit()
+        return {"message":"product successfully deleted"}
     raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,detail="onnly super admn can delete product")
 
 
